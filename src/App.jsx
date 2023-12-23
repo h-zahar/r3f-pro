@@ -5,7 +5,7 @@ function App() {
   return (
     <Canvas>
       <directionalLight position={[0, 0, 2]} />
-      <mesh>
+      <mesh position={[1.4, 0, 0]}>
         <boxGeometry args={[2, 2, 5]} />
         <meshStandardMaterial color={"orange"} />
       </mesh>
