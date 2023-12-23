@@ -1,5 +1,14 @@
+import { Canvas } from "@react-three/fiber";
+import "./App.css";
+
 function App() {
-  return <></>;
+  return (
+    <Canvas>
+      <mesh>
+        <boxGeometry />
+      </mesh>
+    </Canvas>
+  );
 }
 
 export default App;
