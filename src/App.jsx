@@ -6,7 +6,7 @@ function App() {
     <Canvas>
       <mesh>
         <boxGeometry />
-        <meshStandardMaterial />
+        <meshBasicMaterial />
       </mesh>
     </Canvas>
   );
